@@ -12,6 +12,7 @@ const App = () => {
         price={srcPaintings[0].price}
         profileurl={srcPaintings[0].author.url}
         tag={srcPaintings[0].author.tag}
+        quantity={srcPaintings[0].quantity}
       />
 
       <Paintings
@@ -20,6 +21,7 @@ const App = () => {
         price="600"
         profileUrl="https://pixabay.com/users/ractapopulous-24766/"
         tag="ractapopulous"
+        quantity={srcPaintings[2].quantity}
       />
     </div>
   );
