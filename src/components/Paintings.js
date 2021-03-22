@@ -1,6 +1,6 @@
 import React from "react";
 import defaultImage from "./default.jpg";
-console.log(defaultImage);
+import propTypes from "prop-types";
 
 const Painting = ({ url, title, profileUrl, tag, price, quantity }) => (
   <div>
@@ -16,8 +16,16 @@ const Painting = ({ url, title, profileUrl, tag, price, quantity }) => (
 );
 
 Painting.defaultProps = {
-  price: 1000,
   url: defaultImage,
+};
+
+Painting.propTypes = {
+  url: propTypes.string,
+  title: propTypes.string.isRequired,
+  profileUrl: propTypes.string,
+  tag: propTypes.string.isRequired,
+  price: propTypes.number.isRequired,
+  quantity: propTypes.number.isRequired,
 };
 
 export default Painting;
