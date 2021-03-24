@@ -3,10 +3,22 @@ import Logo from "./components/logo";
 import PaintingList from "./components/PaintingList";
 import srcPaintings from "./src.json";
 import Panel from "./components/panel";
+import ColorPicker from './components/colorPicker'
+
+
+const colorPickerOptions = [
+  { label: 'red', color: '#F44336' },
+  { label: 'green', color: '#4CAF50' },
+  { label: 'blue', color: '#2196F3' },
+  { label: 'grey', color: '#607D8B' },
+  { label: 'pink', color: '#E91E63' },
+  { label: 'indigo', color: '#3F51B5' },
+];
 
 const App = () => {
   return (
     <div>
+      <ColorPicker options={colorPickerOptions }/>
       <Panel title="fresh news">
         <p>
           Take two powerhouse women with impeccable comedic timing, add some
