@@ -18,7 +18,7 @@ const App = () => {
   return (
     <div>
       <ColorPicker options={colorPickerOptions} />
-      <Panel title="fresh news">
+      <Panel title="hmmm">
         <p>
           Take two powerhouse women with impeccable comedic timing, add some
           bad-ass superhero costumes, and that's really all we need to know.

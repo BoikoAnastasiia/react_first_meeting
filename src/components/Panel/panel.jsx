@@ -1,6 +1,8 @@
 import PropTypes from 'prop-types';
+import styles from './Panel.module.css';
+console.log(styles);
 
-const styles = {
+const colors = {
   contaner: {
     width: 600,
     border: '2px solid blue',
@@ -19,8 +21,15 @@ const styles = {
 //         {children}
 //     </div>)
 
+// const Panel = ({ title, children }) => (
+//   <div style={colors.contaner}>
+//     {title && <h2>{title}</h2>}
+//     {children}
+//   </div>
+// );
+
 const Panel = ({ title, children }) => (
-  <div style={styles.contaner}>
+  <div className={styles.container}>
     {title && <h2>{title}</h2>}
     {children}
   </div>
