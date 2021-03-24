@@ -1,6 +1,6 @@
-import React from "react";
-import PropTypes from "prop-types";
-import Painting from "./Paintings";
+import React from 'react';
+import PropTypes from 'prop-types';
+import Painting from './Paintings';
 
 const PaintingList = ({ items }) => (
   <ul>
@@ -21,8 +21,8 @@ const PaintingList = ({ items }) => (
 
 Painting.propTypes = {
   paintings: PropTypes.arrayOf(
-    PropTypes.shape({ id: PropTypes.string.isRequired })
-  ).isRequired,
+    PropTypes.shape({ id: PropTypes.string.isRequired }),
+  ),
 };
 
 export default PaintingList;

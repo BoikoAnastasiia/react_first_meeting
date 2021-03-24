@@ -1,10 +1,9 @@
-import React from "react";
-import Logo from "./components/logo";
-import PaintingList from "./components/PaintingList";
-import srcPaintings from "./src.json";
-import Panel from "./components/panel";
-import ColorPicker from './components/colorPicker'
-
+import React from 'react';
+import Logo from './components/logo';
+import PaintingList from './components/PaintingList';
+import srcPaintings from './src.json';
+import Panel from './components/panel';
+import ColorPicker from './components/colorPicker/colorPicker';
 
 const colorPickerOptions = [
   { label: 'red', color: '#F44336' },
@@ -18,7 +17,7 @@ const colorPickerOptions = [
 const App = () => {
   return (
     <div>
-      <ColorPicker options={colorPickerOptions }/>
+      <ColorPicker options={colorPickerOptions} />
       <Panel title="fresh news">
         <p>
           Take two powerhouse women with impeccable comedic timing, add some
