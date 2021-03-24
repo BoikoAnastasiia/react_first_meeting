@@ -2,7 +2,7 @@ import React from 'react';
 import Logo from './components/logo';
 import PaintingList from './components/painting/PaintingList';
 import srcPaintings from './components/painting/src.json';
-import Panel from './components/panel';
+import Panel from './components/Panel/panel';
 import ColorPicker from './components/colorPicker/colorPicker';
 
 const colorPickerOptions = [
