@@ -1,6 +1,6 @@
-import React from "react";
-import defaultImage from "./default.jpg";
-import propTypes from "prop-types";
+import React from 'react';
+import defaultImage from './default.jpg';
+import propTypes from 'prop-types';
 
 const Painting = ({ url, title, profileUrl, tag, price, quantity }) => (
   <div>
@@ -10,7 +10,7 @@ const Painting = ({ url, title, profileUrl, tag, price, quantity }) => (
       Author: <a href={profileUrl}>{tag}</a>
     </p>
     <p>Price: {price} credits</p>
-    <p>Available: {quantity < 10 ? "nope" : "yes"}</p>
+    <p>Available: {quantity < 10 ? 'nope' : 'yes'}</p>
     <button type="button">Add to basket </button>
   </div>
 );

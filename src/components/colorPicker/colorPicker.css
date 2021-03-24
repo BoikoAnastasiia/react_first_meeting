@@ -4,3 +4,11 @@
   height: 40px;
   margin: 4px;
 }
+
+.ColorPicker-container {
+  padding: 10px;
+}
+
+.ColorPicker-title {
+  color: palevioletred;
+}

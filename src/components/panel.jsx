@@ -1,10 +1,13 @@
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
 
 const styles = {
-    contaner: {width: 200,
-        border: "2px solid blue",
-        borderColor: "indigo"}
-}
+  contaner: {
+    width: 600,
+    border: '2px solid blue',
+    borderColor: 'indigo',
+    marginBottom: 20,
+  },
+};
 
 // const Panel = ({ title, children }) => (
 //     <div style={{
@@ -17,19 +20,19 @@ const styles = {
 //     </div>)
 
 const Panel = ({ title, children }) => (
-    <div style={styles.contaner
-        
-    }>
+  <div style={styles.contaner}>
     {title && <h2>{title}</h2>}
-        {children}
-    </div>)
+    {children}
+  </div>
+);
 
 Panel.defaultProps = {
-    title: "",
-    children: [  ]
-    }
+  title: '',
+  children: [],
+};
 
 Panel.propTypes = {
-    title: PropTypes.string,
-children: PropTypes.node,}
-export default Panel
+  title: PropTypes.string,
+  children: PropTypes.node,
+};
+export default Panel;

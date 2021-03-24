@@ -1,7 +1,7 @@
 import React from 'react';
 import Logo from './components/logo';
-import PaintingList from './components/PaintingList';
-import srcPaintings from './src.json';
+import PaintingList from './components/painting/PaintingList';
+import srcPaintings from './components/painting/src.json';
 import Panel from './components/panel';
 import ColorPicker from './components/colorPicker/colorPicker';
 

@@ -3,8 +3,8 @@ import './colorPicker.css';
 const ColorPicker = ({ options }) => {
   // console.log(options);
   return (
-    <div>
-      <h2> Color Picker </h2>
+    <div className="ColorPicker-container">
+      <h2 className="ColorPicker-title"> Color Picker </h2>
       <div>
         {options.map(({ label, color }) => (
           <span
