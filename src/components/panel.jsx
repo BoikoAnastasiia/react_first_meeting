@@ -12,7 +12,7 @@ const Panel = ({ title, children }) => (
 
 Panel.defaultProps = {
     title: "",
-    children: []
+    children: [  ]
     }
 
 Panel.propTypes = {
