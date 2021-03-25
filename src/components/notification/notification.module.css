@@ -1,0 +1,13 @@
+notification {
+  padding: 10px;
+  font-weight: bold;
+}
+
+.error {
+  background-color: rgb(236, 33, 101);
+  color: white;
+}
+
+.success {
+  background-color: rgb(48, 230, 169);
+}

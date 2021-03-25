@@ -4,6 +4,7 @@ import PaintingList from './components/painting/PaintingList';
 import srcPaintings from './components/painting/src.json';
 import Panel from './components/Panel/panel';
 import ColorPicker from './components/colorPicker/colorPicker';
+import Notification from './components/notification/notification';
 
 const colorPickerOptions = [
   { label: 'red', color: '#F44336' },
@@ -29,6 +30,7 @@ const App = () => {
         </p>
         <a href="https://app.schoology.com/calendar/93611783/2021-03"> Read</a>
       </Panel>
+      <Notification text="some text here for example" />
       <Panel title="fresh news">
         <p>
           What a long and storied history this release has had, from director
