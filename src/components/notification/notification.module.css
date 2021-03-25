@@ -1,13 +1,17 @@
-notification {
+@value font-stack from './notification'
+
+.notification {
   padding: 10px;
   font-weight: bold;
-}
-
-.error {
-  background-color: rgb(236, 33, 101);
   color: white;
 }
 
+.error {
+  composes: notification;
+  background-color: rgb(236, 33, 101);
+}
+
 .success {
-  background-color: rgb(48, 230, 169);
+  composes: notification;
+  background-color: rgb(56, 161, 126);
 }

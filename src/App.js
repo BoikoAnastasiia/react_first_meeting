@@ -30,7 +30,8 @@ const App = () => {
         </p>
         <a href="https://app.schoology.com/calendar/93611783/2021-03"> Read</a>
       </Panel>
-      <Notification text="some text here for example" />
+      <Notification type="success" text="okay" />
+      <Notification text="There is something wrong here" type="error" />
       <Panel title="fresh news">
         <p>
           What a long and storied history this release has had, from director
