@@ -1,4 +1,4 @@
-@value font-stack from './notification'
+/* @value primary-text-color from '../../vars.module.css'; */
 
 .notification {
   padding: 10px;
