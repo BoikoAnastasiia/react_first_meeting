@@ -1,10 +1,10 @@
 import React from 'react';
-import Logo from './components/logo';
 import PaintingList from './components/painting/PaintingList';
 import srcPaintings from './components/painting/src.json';
 import Panel from './components/Panel/panel';
 import ColorPicker from './components/colorPicker/colorPicker';
 import Notification from './components/notification/notification';
+import Layout from './components/Layout/Layout';
 
 const colorPickerOptions = [
   { label: 'red', color: '#F44336' },
@@ -17,7 +17,7 @@ const colorPickerOptions = [
 
 const App = () => {
   return (
-    <div>
+    <Layout>
       <ColorPicker options={colorPickerOptions} />
       <Panel title="hmmm">
         <p>
@@ -44,9 +44,8 @@ const App = () => {
         <a href="https://app.schoology.com/calendar/93611783/2021-03"> Read</a>
       </Panel>
 
-      <Logo text="The main component of an painting App container" />
       <PaintingList items={srcPaintings} />
-    </div>
+    </Layout>
   );
 };
 
