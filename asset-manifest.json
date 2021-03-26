@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react_first_meeting/static/css/main.b11998f5.chunk.css",
+    "main.js": "/react_first_meeting/static/js/main.0f8bc4fb.chunk.js",
+    "main.js.map": "/react_first_meeting/static/js/main.0f8bc4fb.chunk.js.map",
+    "runtime-main.js": "/react_first_meeting/static/js/runtime-main.06a60d96.js",
+    "runtime-main.js.map": "/react_first_meeting/static/js/runtime-main.06a60d96.js.map",
+    "static/css/2.de71bbd8.chunk.css": "/react_first_meeting/static/css/2.de71bbd8.chunk.css",
+    "static/js/2.b4648d27.chunk.js": "/react_first_meeting/static/js/2.b4648d27.chunk.js",
+    "static/js/2.b4648d27.chunk.js.map": "/react_first_meeting/static/js/2.b4648d27.chunk.js.map",
+    "index.html": "/react_first_meeting/index.html",
+    "static/css/2.de71bbd8.chunk.css.map": "/react_first_meeting/static/css/2.de71bbd8.chunk.css.map",
+    "static/css/main.b11998f5.chunk.css.map": "/react_first_meeting/static/css/main.b11998f5.chunk.css.map",
+    "static/js/2.b4648d27.chunk.js.LICENSE.txt": "/react_first_meeting/static/js/2.b4648d27.chunk.js.LICENSE.txt",
+    "static/media/default.2f556166.jpg": "/react_first_meeting/static/media/default.2f556166.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.06a60d96.js",
+    "static/css/2.de71bbd8.chunk.css",
+    "static/js/2.b4648d27.chunk.js",
+    "static/css/main.b11998f5.chunk.css",
+    "static/js/main.0f8bc4fb.chunk.js"
+  ]
+}
